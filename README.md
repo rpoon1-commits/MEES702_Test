@@ -5,7 +5,7 @@ Text Text Text
 
 1. first-one
 2. second-two
-3. thrid-three
+3. third-three
 4. fourth-four
 
 

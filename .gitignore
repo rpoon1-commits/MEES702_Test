@@ -6,6 +6,12 @@
 
 *.doc
 *.docx
-*.csv
+
 *.rds
+*.xls
+*.xlsx
+
+
+
+dataraw/
 dataderived/
