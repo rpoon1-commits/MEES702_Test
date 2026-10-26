@@ -1,0 +1,2 @@
+# MEES702
+MEES702 Class Fall 2026
