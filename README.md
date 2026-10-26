@@ -8,6 +8,7 @@ Text Text Text
 3. third-three
 4. fourth-four
 
+<<<<<<< HEAD
 This is from the main branch.
 
 
