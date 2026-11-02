@@ -44,8 +44,7 @@ leaflet() %>%
   setView(
       lng = -76.4533,
       lat = 38.3193,
-      zoom = 8) |> 
-  addScaleBar()
+      zoom = 8) 
 
 
 ```
