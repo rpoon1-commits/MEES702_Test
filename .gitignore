@@ -15,3 +15,6 @@
 
 dataraw/
 dataderived/
+
+/.quarto/
+**/*.quarto_ipynb
