@@ -12,7 +12,7 @@
 *.xlsx
 
 
-
+data*/
 dataraw/
 dataderived/
 
