@@ -41,7 +41,7 @@ pop = pop_table |>
          Change_pct = as.numeric(Change_pct))
 
 summary(pop)
-
+ 
 
 write.csv(pop, "dataderived/popDC.csv", row.names = FALSE)
 
