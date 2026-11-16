@@ -7,14 +7,6 @@ summary(iris)
 
 # input: Numeric year (y)
 
-
-# Notes
-# Y %% 4 == 0
-
-# year = 2001
-
-
-
 is_leap_year <- function(year) {
   if (!is.numeric(year)) {
     stop("Message: Please input a numeric year.")

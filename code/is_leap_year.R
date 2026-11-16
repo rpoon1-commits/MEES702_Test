@@ -7,6 +7,7 @@
 is_leap_year <- function(year) {
   if (!is.numeric(year)) {
     stop("Message: Please input a numeric year.")
+#    stop("Input 'x' must be numeric.", call. = FALSE)
   }
   
   is_leap <- (year %% 4 == 0) & ((year %% 100 != 0) | (year %% 400 == 0))
