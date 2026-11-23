@@ -12,6 +12,7 @@ scaled_power <- function(x,
     stop("Input 'x' must be numeric.", call. = FALSE)
     }
   
+  
   # check that the user input is from the specified options
   method = match.arg(method)
   
@@ -32,6 +33,7 @@ scaled_power <- function(x,
     plot(x, final_res, xlab = "Input(x)", ...)
     plot(x, final_res, xlab = "another plot", ...)
   }
+  browser()
   
   lm(x ~ final_res, ...)
   
@@ -62,4 +64,6 @@ res <- scaled_power(
   pch = 19, 
   type = "b"
 )
+
+
 
